@@ -12,7 +12,7 @@ Example usage:
 
 2. Will pick data from the given sheet name if provided => `node app.js baseFile.xlsx Sheet1`
 
-3. Enclode sheetName or fileName in double quotes if it has spaces => `node app.js "base File.xlsx" "Sheet Name"`
+3. Enclose sheetName or fileName in double quotes if it has spaces => `node app.js "base File.xlsx" "Sheet Name"`
 
 ## Result
 
