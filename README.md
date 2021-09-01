@@ -16,4 +16,4 @@ Example usage:
 
 ## Result
 
-The resultant json will be printed in a file named jsonArray.json in the root of the program
+The resultant json will be printed in a file named `jsonArray.json` in the root of the program
