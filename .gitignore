@@ -1,4 +1,4 @@
 *.xlsx
 *.xls
 node_modules
-apiCallJSON.json
+jsonArray.json

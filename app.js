@@ -25,11 +25,11 @@ const getWorksheet = (path, sheetName) => {
     }
 };
 
-const buildApiCall = (filePath, sheetName) => {
+const buildJSON = (filePath, sheetName) => {
     try {
         const data = getWorksheet(filePath, sheetName);
 
-        const apiJSONArray  = [];
+        const jsonArray  = [];
 
         const entityIdIndex = data[0].findIndex(el => el === 'Venue ID');
         const accountIdIndex = data[0].findIndex(el => el === 'Account ID');
@@ -42,18 +42,18 @@ const buildApiCall = (filePath, sheetName) => {
         const iterationDataset = data.slice(1,data.length);
 
         for (const record of iterationDataset) {
-            apiJSONArray.push({
+            jsonArray.push({
                 entityId: record[entityIdIndex],
                 accountId: record[accountIdIndex],
                 localeIndex: record[localeIndex]
             })
         }
 
-        fs.writeFileSync('apiCallJSON.json', JSON.stringify(apiJSONArray));
+        fs.writeFileSync('jsonArray.json', JSON.stringify(jsonArray));
 
     } catch(err) {
         console.error(err);
     }
 }
 
-buildApiCall(filePath, sheetName);
+buildJSON(filePath, sheetName);
