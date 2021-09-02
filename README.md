@@ -7,7 +7,7 @@ Invoke by passing file name and/or sheet name to command line args as follows
 `node app.js <filename.xlsx> <sheetname.xlsx> <mode>`
 
 * Mode 1: Converts all columns to JSON with column headers as key name
-* Mode 2: Needs specific column names (Venue ID, Account ID and Locale) to be in the file and will convert them to entityId, accountId and ;locale in the json 
+* Mode 2: Needs specific column names (Venue ID, Account ID and Locale) to be in the file and will convert them to entityId, accountId and locale in the json 
 
 Example usage: 
 
