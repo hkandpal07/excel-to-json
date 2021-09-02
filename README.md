@@ -2,7 +2,9 @@
 
 ## Invocation 
 
-*`"Pie Iesu Domine, dona eis requim"`*
+*`"Pie Iesu Domine, dona eis requim"`* 
+
+`*Proceeds to smack the forehead with a cardboard*`
 
 Invoke by passing file name and/or sheet name to command line args as follows
 
