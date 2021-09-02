@@ -25,4 +25,4 @@ Example usage:
 
 ## Result
 
-The resultant json will be printed in a file named `jsonArrayMode1.json` or `jsonArrayMode2.json` in the root of the program
+The resultant json will be printed in a file named `jsonArrayMode1.json` or `jsonArrayMode2.json` in the root of the program.
