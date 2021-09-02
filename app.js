@@ -26,7 +26,7 @@ const getWorksheet = (path, sheetName) => {
     }
 };
 
-const buildJSON = (filePath, sheetName, mode = 1) => {
+const buildJSON = (filePath, sheetName, mode = '1') => {
     try {
         const data = getWorksheet(filePath, sheetName);
 
