@@ -1,4 +1,5 @@
 *.xlsx
 *.xls
 node_modules
-jsonArray.json
+jsonArrayMode1.json
+jsonArrayMode2.json
