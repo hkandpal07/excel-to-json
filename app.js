@@ -62,7 +62,7 @@ const buildJSON = (filePath, sheetName, mode = 1) => {
                 jsonArray.push({
                     entityId: record[entityIdIndex],
                     accountId: record[accountIdIndex],
-                    localeIndex: record[localeIndex]
+                    locale: record[localeIndex]
                 })
             }
 
