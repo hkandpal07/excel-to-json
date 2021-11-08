@@ -41,7 +41,7 @@ const buildJSON = (filePath, sheetName, mode = '1') => {
                 let currentObject = {};
 
                 keyArray.forEach((el, index) => {
-                    currentObject[el] = record[index];
+                    currentObject[el] = el === 'Download Link' ? encodeURIComponent(record[index]) : record[index];
                 });
 
                 jsonArray.push(currentObject);
